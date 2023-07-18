@@ -10,7 +10,7 @@ using namespace std::chrono;
 
 #define ARQUIVO_TWEETS "tweets.txt"
 
-
+//Função para leitura de arquivo
 vector<PalavraFrequencia> lerArquivo() {
 	vector<PalavraFrequencia> listaTweets;
 
@@ -33,6 +33,7 @@ vector<PalavraFrequencia> lerArquivo() {
   return listaTweets;
 }
 
+//Função principal
 int main() {
   cout << "--- Arvore Binaria de Busca ---" << endl << endl;
 
