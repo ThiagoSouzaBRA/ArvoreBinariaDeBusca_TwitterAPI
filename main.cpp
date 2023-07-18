@@ -33,6 +33,7 @@ vector<PalavraFrequencia> lerArquivo() {
   return listaTweets;
 }
 
+//Função principal
 int main() {
   cout << "--- Arvore Binaria de Busca ---" << endl << endl;
 
